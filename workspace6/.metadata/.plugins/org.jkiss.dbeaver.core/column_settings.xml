@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+	<item id="NodeList/MySQLTable">
+		<column name="Table Name" visible="true" order="0" width="100"/>
+		<column name="Engine" visible="true" order="1" width="100"/>
+		<column name="Auto Increment" visible="true" order="2" width="100"/>
+		<column name="Data Length" visible="true" order="3" width="100"/>
+		<column name="Description" visible="true" order="4" width="100"/>
+	</item>
+	<item id="scriptSelectorViewer">
+		<column name="Script" visible="true" order="0" width="149"/>
+		<column name="Time" visible="true" order="1" width="181"/>
+		<column name="Info" visible="true" order="2" width="84"/>
+		<column name="Folder" visible="true" order="3" width="96"/>
+	</item>
+</items>

@@ -1,0 +1,124 @@
+2022-07-24 10:36:50.318 - Create display
+> Start DBeaver UI Editors - Base [org.jkiss.dbeaver.ui.editors.base 1.0.85.202207091909]
+2022-07-24 10:36:50.482 - Starting RMI server at 21365
+2022-07-24 10:36:50.727 - Run workbench
+> Start Eclipse e4 Workbench SWT [org.eclipse.e4.ui.workbench.swt 0.16.500.v20220506-1520]
+> Start Eclipse Application Services [org.eclipse.e4.core.services 2.3.200.v20220513-1235]
+> Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.5.0.v20210115-1333]
+> Start EMF XML/XMI Persistence [org.eclipse.emf.ecore.xmi 2.16.0.v20190528-0725]
+> Start Eclipse CSS SWT Theme Support [org.eclipse.e4.ui.css.swt.theme 0.13.100.v20220310-1056]
+> Start Eclipse e4 Workbench Add-ons [org.eclipse.e4.ui.workbench.addons.swt 1.4.400.v20211102-0453]
+> Start Eclipse e4 Workbench SWT Renderer [org.eclipse.e4.ui.workbench.renderers.swt 0.15.500.v20220511-1638]
+> Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.13.100.v20210722-1426]
+> Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.17.100.v20210910-0640]
+> Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.14.500.v20220511-1639]
+> Start DBeaver UI [org.jkiss.dbeaver.ui 5.1.100.202207091909]
+> Start Java Native Access [com.sun.jna 5.8.0.v20210503-0343]
+2022-07-24 10:37:03.526 - Configure workbench window
+> Start Help System Core [org.eclipse.help 3.9.100.v20210721-0601]
+2022-07-24 10:37:03.740 - Create actions
+2022-07-24 10:37:03.752 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2022-07-24 10:37:03.754 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2022-07-24 10:37:03.755 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2022-07-24 10:37:04.572 - Initialize workbench window
+2022-07-24 10:37:04.580 - Finish initialization
+> Start Default Text Editor [org.eclipse.ui.editors 3.14.300.v20210913-0815]
+> Start Text Editor Framework [org.eclipse.ui.workbench.texteditor 3.16.500.v20220331-0848]
+> Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.85.202207091909]
+> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.75.202207091909]
+> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.85.202207091909]
+> Start Core Compare Support [org.eclipse.compare.core 3.7.0.v20220513-0551]
+> Start Equinox Java Authentication and Authorization Service (JAAS) [org.eclipse.equinox.security 1.3.900.v20220108-1321]
+> Start Internet Connection Management UI [org.eclipse.ui.net 1.4.0.v20210426-0838]
+> Start Internet Connection Management [org.eclipse.core.net 1.3.1200.v20220312-1450]
+2022-07-24 10:37:07.552 - Loading user drivers configuration from 'C:\Users\brycr\AppData\Roaming\DBeaverData\workspace6\.metadata\.plugins\org.jkiss.dbeaver.core\drivers.xml'
+2022-07-24 10:37:07.573 - Total database drivers: 100 (100)
+> Start DBeaver Sample Database [org.jkiss.dbeaver.ext.sample.database 1.0.122.202207091909]
+> Start DBeaver Tip of the day [org.jkiss.dbeaver.ext.ui.tipoftheday 1.0.91.202207091909]
+> Start Draw2d [org.eclipse.draw2dl 3.12.100.20220506142945]
+> Start GEF3 GEF (MVC) [org.eclipse.gef3 3.12.100.20220506142945]
+> Start DBeaver ERD UI [org.jkiss.dbeaver.erd.ui 3.0.45.202207091909]
+> Start DBeaver ERD Model [org.jkiss.dbeaver.erd.model 1.0.45.202207091909]
+> Start Console [org.eclipse.ui.console 3.11.200.v20220324-0630]
+> Start Debug Core [org.eclipse.debug.core 3.19.100.v20220324-0630]
+2022-07-24 10:37:08.956 - Connect with 'parks_db' (mysql8-181b72bbae3-419fdb0574fc0b99)
+> Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.170.202207091909]
+2022-07-24 10:37:09.018 - Execution context opened (parks_db; Main; 0)
+> Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.109.202207091909]
+2022-07-24 10:37:09.361 - Execution context opened (parks_db; Metadata; 1)
+2022-07-24 10:37:09.492 - Connected (mysql8-181b72bbae3-419fdb0574fc0b99, MySQL Connector/J [mysql-connector-java-8.0.17 (Revision: 16a712ddb3f826a1933ab42b0039f7fb9eebc6ec)])
+2022-07-24 10:37:09.657 - Execution context opened (parks_db; SQLEditor <Tables.sql>; 2)
+2022-07-24 10:37:10.192 - Open [https://dbeaver.io/product/version.xml]
+2022-07-24 11:36:25.432 - Execution context opened (parks_db; SQLEditor <pfl.sql>; 3)
+2022-07-24 11:36:30.036 - Execution context opened (parks_db; SQLEditor <events.sql>; 4)
+2022-07-24 12:24:45.408 - Execution context opened (parks_db; SQLEditor <features.sql>; 5)
+2022-07-24 12:29:36.826 - Execution context opened (parks_db; SQLEditor <Script.sql>; 6)
+2022-07-24 13:19:39.690 - Execution context opened (parks_db; SQLEditor <parks.sql>; 7)
+2022-07-24 13:20:06.917 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [3730] [HY000]: Cannot drop table 'features' referenced by a foreign key constraint 'park_feature_link_ibfk_2' on table 'park_feature_link'.
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:577)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:486)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:172)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:493)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:233)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: Cannot drop table 'features' referenced by a foreign key constraint 'park_feature_link_ibfk_2' on table 'park_feature_link'.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:764)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:329)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.lambda$0(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.utils.SecurityManagerUtils.wrapDriverActions(SecurityManagerUtils.java:94)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 7 more
+2022-07-24 13:21:32.182 - org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1452] [23000]: Cannot add or update a child row: a foreign key constraint fails (`parks_db`.`park_feature_link`, CONSTRAINT `park_feature_link_ibfk_1` FOREIGN KEY (`park_id`) REFERENCES `parks` (`park_id`))
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:577)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:486)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:496)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.run(SQLQueryJob.java:233)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`parks_db`.`park_feature_link`, CONSTRAINT `park_feature_link_ibfk_1` FOREIGN KEY (`park_id`) REFERENCES `parks` (`park_id`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:764)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:329)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.lambda$0(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.utils.SecurityManagerUtils.wrapDriverActions(SecurityManagerUtils.java:94)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 6 more
+2022-07-24 13:22:15.656 - SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'insert into parks(park_name, acreage) values('Bloomington', '12.87')' at line 2
+
+Error position: line: 1
+org.jkiss.dbeaver.model.sql.DBSQLException: SQL Error [1064] [42000]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'insert into parks(park_name, acreage) values('Bloomington', '12.87')' at line 2
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:133)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeStatement(SQLQueryJob.java:577)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.lambda$1(SQLQueryJob.java:486)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:172)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.executeSingleQuery(SQLQueryJob.java:493)
+	at org.jkiss.dbeaver.ui.editors.sql.execute.SQLQueryJob.extractData(SQLQueryJob.java:894)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditor$QueryResultsContainer.readData(SQLEditor.java:3642)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.lambda$0(ResultSetJobDataRead.java:118)
+	at org.jkiss.dbeaver.model.exec.DBExecUtils.tryExecuteRecover(DBExecUtils.java:172)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetJobDataRead.run(ResultSetJobDataRead.java:116)
+	at org.jkiss.dbeaver.ui.controls.resultset.ResultSetViewer$ResultSetDataPumpJob.run(ResultSetViewer.java:4891)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'insert into parks(park_name, acreage) values('Bloomington', '12.87')' at line 2
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:764)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.execute(JDBCStatementImpl.java:329)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.lambda$0(JDBCStatementImpl.java:131)
+	at org.jkiss.dbeaver.utils.SecurityManagerUtils.wrapDriverActions(SecurityManagerUtils.java:94)
+	at org.jkiss.dbeaver.model.impl.jdbc.exec.JDBCStatementImpl.executeStatement(JDBCStatementImpl.java:131)
+	... 12 more
+> Start Equinox Provisioning Metadata [org.eclipse.equinox.p2.metadata 2.6.200.v20220324-1313]

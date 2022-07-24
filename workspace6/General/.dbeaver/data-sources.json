@@ -1,0 +1,65 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql8-180e416e964-4df154b8ce057961": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "jeep in mysql background",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "jeep",
+				"url": "jdbc:mysql://localhost:3306/jeep",
+				"home": "C:\\Program Files\\MySQL\\MySQL Server 8.0",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"mysql8-181b72bbae3-419fdb0574fc0b99": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "parks_db",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "parks_db",
+				"url": "jdbc:mysql://localhost:3306/parks_db",
+				"home": "C:\\Program Files\\MySQL\\MySQL Server 8.0",
+				"type": "dev",
+				"properties": {
+					"connectTimeout": "20000",
+					"rewriteBatchedStatements": "true",
+					"enabledTLSProtocols": "TLSv1,TLSv1.1,TLSv1.2"
+				},
+				"auth-model": "native",
+				"handlers": {}
+			}
+		}
+	},
+	"virtual-models": {
+		"mysql8-181b72bbae3-419fdb0574fc0b99": {
+			"parks_db": {
+				"@properties": {
+					"erd.diagram.state": {
+						"serialized": "<diagram version=\"1\" name=\"empty\" time=\"202206301805\"><entities><data-source id=\"mysql8-181b72bbae3-419fdb0574fc0b99\"><entity id=\"1\" name=\"events\" fq-name=\"parks_db.events\" order=\"0\" x=\"44\" y=\"256\"><path name=\"parks_db\"/></entity><entity id=\"2\" name=\"parks\" fq-name=\"parks_db.parks\" order=\"1\" x=\"465\" y=\"227\"><path name=\"parks_db\"/></entity><entity id=\"3\" name=\"zips\" fq-name=\"parks_db.zips\" order=\"2\" x=\"227\" y=\"37\"><path name=\"parks_db\"/></entity></data-source></entities><relations><relation name=\"events_ibfk_1\" fq-name=\"parks_db.events.events_ibfk_1\" type=\"fk\" pk-ref=\"2\" fk-ref=\"1\"/><relation name=\"zips_ibfk_1\" fq-name=\"parks_db.zips.zips_ibfk_1\" type=\"fk\" pk-ref=\"2\" fk-ref=\"3\"/><relation name=\"events_ibfk_2\" fq-name=\"parks_db.events.events_ibfk_2\" type=\"fk\" pk-ref=\"3\" fk-ref=\"1\"/></relations></diagram>"
+					}
+				}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}

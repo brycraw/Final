@@ -1,0 +1,48 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql8-180e416e964-4df154b8ce057961": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "jeep in mysql background",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "jeep",
+				"url": "jdbc:mysql://localhost:3306/jeep",
+				"home": "C:\\Program Files\\MySQL\\MySQL Server 8.0",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"mysql8-181a75a64d8-111980adad8814b0": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "parks_DB in mysql background",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "parks",
+				"url": "jdbc:mysql://localhost:3306/parks",
+				"home": "C:\\Program Files\\MySQL\\MySQL Server 8.0",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}
